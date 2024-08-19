@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Alt4Blind</title>
+  <meta name="description" content="A User Interface to Simplify Charts Alt-Text Creation.">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Al4Blind">
+  <meta property="og:description" content="A User Interface to Simplify Charts Alt-Text Creation.">
+  <meta property="og:url" content="https://moured.github.io/alt4blind/">
+  <meta property="og:image" content="https://moured.github.io/chart4blind/static/images/teaser.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Alt4Blind">
+  <meta name="twitter:description" content="A User Interface to Simplify Charts Alt-Text Creation.">
+  <meta name="twitter:image" content="https://moured.github.io/chart4blind/static/images/teaser.png">
+  
+  <!-- Additional Meta Tags -->
+  <meta name="keywords" content="Chart-to-text, Summarization, Alt-text, Image Retrieval, Data Visualization, Chart Analysis, Digitization, Accessible Charts">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Alt4Blind</title>
+  <link rel="icon" type="image/x-icon" href="static/images/alt4blind_logo.svg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- Paper title and logo if any -->
+            <div><h1 class="title is-1 publication-title"><img src="static/images/alt4blind_logo.svg" alt="Alt4Blind Logo" style="vertical-align: middle; width: 500px; height: auto; margin-right: 10px;">A User Interface to Simplify Charts Alt-Text Creation</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block"><a href="https://www.linkedin.com/in/omar-moured/" target="_blank">Omar Moured</a><sup>*</sup>,</span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=ZrOln0cAAAAJ&hl=en" target="_blank"> Shahid Ali Farooqui</a><sup>*</sup>,</span>
+              <span class="author-block"><a href="https://scholar.google.de/citations?hl=en&user=Wm02Ql4AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Karin Müller</a></sup>,</span></span>
+              <span class="author-block"><a href="https://de.linkedin.com/in/sharifeh-fadaei" target="_blank">Sharifeh Fadaeijouybari</a></sup>,</span></span>
+              <span class="author-block"><a href="https://www.access.kit.edu/287_1037.php" target="_blank">Thorsten Schwarz</a></sup>,</span></span>
+              <span class="author-block"><a href="https://sites.google.com/site/mohammedjaved2016" target="_blank">Mohammed Javed</a></sup>,</span></span>
+              <span class="author-block"><a href="https://cvhci.anthropomatik.kit.edu/people_596.php" target="_blank">Rainer Stiefelhagen</a></span>
+            </div>
+
+            <br>
+                  <!-- Institute, conf and author notes -->
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><a href="https://cvhci.anthropomatik.kit.edu/" target="_blank">CVHCI</a> & <a href="https://cvhci.anthropomatik.kit.edu/" target="_blank">ACCESS@KIT</a>, Karlsruhe Institute of Technology</span>
+                    <br><span class="author-block"><a href="https://cvbl.iiita.ac.in/" target="_blank">Computer Vision & Biometrics Lab</a></a>, Indian Institute of Information Technology<br><a href="https://www.icchp.org/yrc-22">International Conference on Computers Helping People with Special Needs (ICCHP 2024)</a></span>
+
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution.</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+
+                  <!-- Paper link -->
+                      <span class="link-block">
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-62846-7_35" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Abstract link -->
+                  <span class="link-block">
+                    <a href="#abstract-section"
+                        class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-book-open"></i> <!-- Icon representing the Abstract, adjust as needed -->
+                      </span>
+                      <span>Abstract</span>
+                    </a>
+                  </span>                    
+
+                  <!-- Github code link -->
+                  <span class="link-block">
+                    <a href="https://huggingface.co/datasets/omoured/Alt4Blind" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+
+                  <!-- Demo interface image -->
+                        <span class="link-block">
+                          <a href="#demo-video"
+                             class="external-link button is-normal is-rounded is-dark">
+                            <span class="icon">
+                              <i class="fas fa-desktop"></i> <!-- Icon changed to a video icon -->
+                            </span>
+                            <span>User Interface</span>
+                          </a>
+                        </span>
+
+                  <!-- Model Details -->
+                  <span class="link-block">
+                    <a href="#demo-video"
+                       class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-search"></i> <!-- Icon changed to a video icon -->
+                      </span>
+                      <span>Retrieval Model</span>
+                    </a>
+                  </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Youtube video -->
+<section class="hero is-small is-light" id="demo-video">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3 has-text-centered">User Interface</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+            <!-- Youtube embed code here -->
+            <img src="static/images/alt4blind_main_page.png" alt="alt4blind user interface"/>
+            <!-- <iframe src="https://www.youtube.com/embed/hxBSTQ45dKM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light" id="abstract-section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Alternative Texts (Alt-Text) for chart images are essential for making graphics accessible to people with blindness and visual impairments. Traditionally, Alt-Text is manually written by authors but often encounters issues such as oversimplification or complication. Recent trends have seen the use of AI for Alt-Text generation. However, existing models are susceptible to producing inaccurate or misleading information. We address this challenge by retrieving high-quality alt-texts from similar chart images, serving as a reference for the user when creating alt-texts. Our three contributions are as follows: (1) we introduce a new benchmark comprising 5,000 real images with semantically labeled high-quality Alt-Texts, collected from Human Computer Interaction venues. (2) We developed a deep learning-based model to rank and retrieve similar chart images that share the same visual and textual semantics. (3) We designed a user interface (UI) to facilitate the alt-text creation process. Our preliminary interviews and investigations highlight the usability of our UI. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="image-viewer">
+        <!-- Your image here -->
+        <h2 class="title is-3" style="text-align: center;">Retrieval Model</h2>
+        <img src="static/images/alt4blind_system_new.png" alt="teaser image"/>
+        <!-- <h3 class="subtitle has-text-centered">
+          With Chart4Blind, a sighted individual can upload a chart image and seamlessly generate a version that is print accessible.
+        </h3> -->
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@InProceedings{10.1007/978-3-031-62846-7_35,
+          author="Moured, Omar
+          and Farooqui, Shahid Ali
+          and M{\"u}ller, Karin
+          and Fadaeijouybari, Sharifeh
+          and Schwarz, Thorsten
+          and Javed, Mohammed
+          and Stiefelhagen, Rainer",
+          title="Alt4Blind: A User Interface to Simplify Charts Alt-Text Creation",
+          booktitle="Computers Helping People with Special Needs",
+          year="2024",
+          publisher="Springer Nature Switzerland",
+          isbn="978-3-031-62846-7"}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p style="text-align: center;">
+            For further questions please contact <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Omar Moured</a>.
+            <br> The project is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons (CC BY-NC 4.0)</a>.
+            <br> Copyright © 2024. Karlsruhe Institute of Technology. All rights reserved.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
